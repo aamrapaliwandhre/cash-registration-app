@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  width: 99%;
+  margin: auto;
+  text-align: center;
+  border: 1px solid rgb(47, 27, 83);
+  box-shadow: 5px 5px rgb(10, 11, 31);
+}
+
+main {
+  max-width: 500px;
+  margin: 2rem auto;
+  height: 80vh;
+}
+
+.main-head {
+  padding: 0.5rem 1rem;
+  margin: auto;
+  text-align: center;
+  font-size: large;
+}
+
+.input-div {
+  width: 70%;
+  margin: 2rem auto;
+  border: 1px solid rgb(47, 27, 83);
+  box-shadow: 5px 5px rgb(10, 11, 31);
+  padding: 1rem;
+}
+
+.input-div .input-prompt {
+  padding: 0;
+  padding-right: 1rem;
+  margin: 0;
+}
+
+.input-div input {
+  width: 3.5rem;
+  padding: 0.3rem;
+  margin: 0;
+  color: white;
+  background-color: black;
+  border: 1px solid rgb(47, 27, 83);
+  box-shadow: 3px 3px rgb(10, 11, 31);
+}
+
+button {
+  display: block;
+  margin: auto;
+  color: white;
+  background-color: black;
+  border: 1px solid rgb(47, 27, 83);
+  box-shadow: 4px 4px rgb(10, 11, 31);
+  font-size: medium;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+}
+
+#reset {
+  margin: auto;
+  margin-top: 1.5rem;
+}
+
+.output1 {
+  text-align: center;
+  width: 95%;
+  margin: auto;
+  margin-top: 10vh;
+  padding-left: 0.5rem;
+}
+
+.title {
+  width: 50%;
+  margin: 2rem auto;
+}
+
+.title span {
+  font-size: large;
+  padding-right: 0.5rem;
+}
+
+.title .money-show {
+  float: right;
+  padding: 0.3rem;
+  font-size: large;
+  border: 1px solid rgb(47, 27, 83);
+  box-shadow: 4px 4px rgb(10, 11, 31);
+}
+
+.denomination {
+  font-size: large;
+  margin-top: 8vh;
+  margin-bottom: 0.5rem;
+}
+
+.notes {
+  border: 1px solid rgb(47, 27, 83);
+  box-shadow: 3px 3px rgb(10, 11, 31);
+  width: 50px;
+  margin: 0.5rem;
+  float: left;
+}
+
+.notes div {
+  font-size: larger;
+  border-bottom: 1px solid rgb(47, 27, 83);
+}
+
+.notes span {
+  font-size: small;
+}
+
+footer {
+  padding-left: 1rem;
+  margin-top: 1rem;
+  color: white;
+  font-size: small;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--primary-color);
+  color: rgb(118, 123, 216);
+}
